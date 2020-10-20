@@ -61,7 +61,6 @@ namespace Dijkstra_s_algorithm
                 }
             }
         }
-
         int CalPre(int preNode)
         {
             int a = shortestPath[preNode, V - 2, 0];

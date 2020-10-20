@@ -27,7 +27,6 @@ namespace Dijkstra_s_algorithm
             List<int[]> allPaths = find.GetShortestPathList(Data.Graph, Data.Vertices, start);
             int[] path = allPaths[end];
             List<int> routeNumbers = new List<int>();
-
             for (int j = 0; j < path.Length - 1; j++)
             {
                 for (int i = 0; i < Data.Endpoints.GetLength(0); i++)
